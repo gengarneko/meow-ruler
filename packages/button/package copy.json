@@ -1,0 +1,31 @@
+{
+  "name": "@meow-ruler/react",
+  "version": "0.0.0",
+  "description": "react sketch like ruler component",
+  "keywords": [
+    "react",
+    "sketch",
+    "ruler",
+    "emotion",
+    "immer",
+    "rxjs"
+  ],
+  "author": "绅士喵呜 <2234763217@qq.com>",
+  "homepage": "",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "latest"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^5.0.0"
+  }
+}
