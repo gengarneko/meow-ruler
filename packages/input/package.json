@@ -1,18 +1,18 @@
 {
   "name": "@meow-ruler/input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "module": "src/index.js",
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
     "@emotion/react": "latest",
-    "@emotion/styled": "latest"
+    "@emotion/styled": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
     "@emotion/react": "^11.1.4",
-    "@emotion/styled": "^11.0.0"
+    "@emotion/styled": "^11.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
