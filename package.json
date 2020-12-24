@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "@meow-ruler/*"
+    "packages/*"
   ],
   "scripts": {
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js",
